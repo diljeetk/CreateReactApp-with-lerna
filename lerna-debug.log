@@ -1,0 +1,679 @@
+0 silly input []
+1 silly flags { _: [ 'bootstrap' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   args: [] }
+2 verbose rootPath C:\demo\poc\poc-with-lerna
+3 info version 2.11.0
+4 silly existsSync C:\demo\poc\poc-with-lerna\VERSION
+5 info versioning independent
+6 silly initialize attempt
+7 silly npmConfig { registry: undefined,
+7 silly npmConfig   npmClient: undefined,
+7 silly npmConfig   npmClientArgs: undefined,
+7 silly npmConfig   mutex: undefined }
+8 silly initialize success
+9 silly execute attempt
+10 info Bootstrapping 5 packages
+11 info lifecycle preinstall
+12 silly runScript preinstall @encore/combapp
+13 silly @encore/combapp
+14 silly runScript preinstall @encore/dropdown
+15 silly @encore/dropdown
+16 silly runScript preinstall @encore/form
+17 silly @encore/form
+18 silly runScript preinstall @encore/header
+19 silly @encore/header
+20 silly runScript preinstall @encore/styles
+21 silly @encore/styles
+22 silly hasDependencyInstalled @encore/combapp react
+23 silly dependencyIsSatisfied [ 'react',
+23 silly dependencyIsSatisfied   '^15.6.1',
+23 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\combApp\\node_modules' ]
+24 verbose dependencyIsSatisfied react true
+25 silly hasDependencyInstalled @encore/dropdown react
+26 silly dependencyIsSatisfied [ 'react',
+26 silly dependencyIsSatisfied   '^15.6.1',
+26 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Dropdown\\node_modules' ]
+27 verbose dependencyIsSatisfied react true
+28 silly hasDependencyInstalled @encore/form react
+29 silly dependencyIsSatisfied [ 'react',
+29 silly dependencyIsSatisfied   '^15.6.1',
+29 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Form\\node_modules' ]
+30 verbose dependencyIsSatisfied react true
+31 silly hasDependencyInstalled @encore/header react
+32 silly dependencyIsSatisfied [ 'react',
+32 silly dependencyIsSatisfied   '^15.6.1',
+32 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Header\\node_modules' ]
+33 verbose dependencyIsSatisfied react true
+34 silly hasDependencyInstalled @encore/combapp react-dom
+35 silly dependencyIsSatisfied [ 'react-dom',
+35 silly dependencyIsSatisfied   '^15.6.1',
+35 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\combApp\\node_modules' ]
+36 verbose dependencyIsSatisfied react-dom true
+37 silly hasDependencyInstalled @encore/dropdown react-dom
+38 silly dependencyIsSatisfied [ 'react-dom',
+38 silly dependencyIsSatisfied   '^15.6.1',
+38 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Dropdown\\node_modules' ]
+39 verbose dependencyIsSatisfied react-dom true
+40 silly hasDependencyInstalled @encore/form react-dom
+41 silly dependencyIsSatisfied [ 'react-dom',
+41 silly dependencyIsSatisfied   '^15.6.1',
+41 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Form\\node_modules' ]
+42 verbose dependencyIsSatisfied react-dom true
+43 silly hasDependencyInstalled @encore/header react-dom
+44 silly dependencyIsSatisfied [ 'react-dom',
+44 silly dependencyIsSatisfied   '^15.6.1',
+44 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Header\\node_modules' ]
+45 verbose dependencyIsSatisfied react-dom true
+46 silly hasDependencyInstalled @encore/combapp react-router-dom
+47 silly dependencyIsSatisfied [ 'react-router-dom',
+47 silly dependencyIsSatisfied   '^4.3.1',
+47 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\combApp\\node_modules' ]
+48 verbose dependencyIsSatisfied react-router-dom true
+49 silly hasDependencyInstalled @encore/dropdown styled-components
+50 silly dependencyIsSatisfied [ 'styled-components',
+50 silly dependencyIsSatisfied   '^2.1.0',
+50 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Dropdown\\node_modules' ]
+51 verbose dependencyIsSatisfied styled-components true
+52 silly hasDependencyInstalled @encore/form styled-components
+53 silly dependencyIsSatisfied [ 'styled-components',
+53 silly dependencyIsSatisfied   '^2.1.0',
+53 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Form\\node_modules' ]
+54 verbose dependencyIsSatisfied styled-components true
+55 silly hasDependencyInstalled @encore/header styled-components
+56 silly dependencyIsSatisfied [ 'styled-components',
+56 silly dependencyIsSatisfied   '^2.1.0',
+56 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Header\\node_modules' ]
+57 verbose dependencyIsSatisfied styled-components true
+58 silly hasDependencyInstalled @encore/styles styled-components
+59 silly dependencyIsSatisfied [ 'styled-components',
+59 silly dependencyIsSatisfied   '^2.1.0',
+59 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Styles\\node_modules' ]
+60 verbose dependencyIsSatisfied styled-components true
+61 silly hasDependencyInstalled @encore/combapp babel-cli
+62 silly dependencyIsSatisfied [ 'babel-cli',
+62 silly dependencyIsSatisfied   '^6.24.1',
+62 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\combApp\\node_modules' ]
+63 verbose dependencyIsSatisfied babel-cli true
+64 silly hasDependencyInstalled @encore/dropdown babel-cli
+65 silly dependencyIsSatisfied [ 'babel-cli',
+65 silly dependencyIsSatisfied   '^6.24.1',
+65 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Dropdown\\node_modules' ]
+66 verbose dependencyIsSatisfied babel-cli true
+67 silly hasDependencyInstalled @encore/form babel-cli
+68 silly dependencyIsSatisfied [ 'babel-cli',
+68 silly dependencyIsSatisfied   '^6.24.1',
+68 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Form\\node_modules' ]
+69 verbose dependencyIsSatisfied babel-cli true
+70 silly hasDependencyInstalled @encore/header babel-cli
+71 silly dependencyIsSatisfied [ 'babel-cli',
+71 silly dependencyIsSatisfied   '^6.24.1',
+71 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Header\\node_modules' ]
+72 verbose dependencyIsSatisfied babel-cli true
+73 silly hasDependencyInstalled @encore/styles babel-cli
+74 silly dependencyIsSatisfied [ 'babel-cli',
+74 silly dependencyIsSatisfied   '^6.24.1',
+74 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Styles\\node_modules' ]
+75 verbose dependencyIsSatisfied babel-cli true
+76 silly hasDependencyInstalled @encore/combapp babel-core
+77 silly dependencyIsSatisfied [ 'babel-core',
+77 silly dependencyIsSatisfied   '^6.25.0',
+77 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\combApp\\node_modules' ]
+78 verbose dependencyIsSatisfied babel-core true
+79 silly hasDependencyInstalled @encore/dropdown babel-core
+80 silly dependencyIsSatisfied [ 'babel-core',
+80 silly dependencyIsSatisfied   '^6.25.0',
+80 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Dropdown\\node_modules' ]
+81 verbose dependencyIsSatisfied babel-core true
+82 silly hasDependencyInstalled @encore/form babel-core
+83 silly dependencyIsSatisfied [ 'babel-core',
+83 silly dependencyIsSatisfied   '^6.25.0',
+83 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Form\\node_modules' ]
+84 verbose dependencyIsSatisfied babel-core true
+85 silly hasDependencyInstalled @encore/header babel-core
+86 silly dependencyIsSatisfied [ 'babel-core',
+86 silly dependencyIsSatisfied   '^6.25.0',
+86 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Header\\node_modules' ]
+87 verbose dependencyIsSatisfied babel-core true
+88 silly hasDependencyInstalled @encore/styles babel-core
+89 silly dependencyIsSatisfied [ 'babel-core',
+89 silly dependencyIsSatisfied   '^6.25.0',
+89 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Styles\\node_modules' ]
+90 verbose dependencyIsSatisfied babel-core true
+91 silly hasDependencyInstalled @encore/combapp babel-eslint
+92 silly dependencyIsSatisfied [ 'babel-eslint',
+92 silly dependencyIsSatisfied   '^7.2.3',
+92 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\combApp\\node_modules' ]
+93 verbose dependencyIsSatisfied babel-eslint true
+94 silly hasDependencyInstalled @encore/dropdown babel-eslint
+95 silly dependencyIsSatisfied [ 'babel-eslint',
+95 silly dependencyIsSatisfied   '^7.2.3',
+95 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Dropdown\\node_modules' ]
+96 verbose dependencyIsSatisfied babel-eslint true
+97 silly hasDependencyInstalled @encore/form babel-eslint
+98 silly dependencyIsSatisfied [ 'babel-eslint',
+98 silly dependencyIsSatisfied   '^7.2.3',
+98 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Form\\node_modules' ]
+99 verbose dependencyIsSatisfied babel-eslint true
+100 silly hasDependencyInstalled @encore/header babel-eslint
+101 silly dependencyIsSatisfied [ 'babel-eslint',
+101 silly dependencyIsSatisfied   '^7.2.3',
+101 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Header\\node_modules' ]
+102 verbose dependencyIsSatisfied babel-eslint true
+103 silly hasDependencyInstalled @encore/styles babel-eslint
+104 silly dependencyIsSatisfied [ 'babel-eslint',
+104 silly dependencyIsSatisfied   '^7.2.3',
+104 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Styles\\node_modules' ]
+105 verbose dependencyIsSatisfied babel-eslint true
+106 silly hasDependencyInstalled @encore/combapp babel-preset-es2015
+107 silly dependencyIsSatisfied [ 'babel-preset-es2015',
+107 silly dependencyIsSatisfied   '^6.24.1',
+107 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\combApp\\node_modules' ]
+108 verbose dependencyIsSatisfied babel-preset-es2015 true
+109 silly hasDependencyInstalled @encore/dropdown babel-preset-es2015
+110 silly dependencyIsSatisfied [ 'babel-preset-es2015',
+110 silly dependencyIsSatisfied   '^6.24.1',
+110 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Dropdown\\node_modules' ]
+111 verbose dependencyIsSatisfied babel-preset-es2015 true
+112 silly hasDependencyInstalled @encore/form babel-preset-es2015
+113 silly dependencyIsSatisfied [ 'babel-preset-es2015',
+113 silly dependencyIsSatisfied   '^6.24.1',
+113 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Form\\node_modules' ]
+114 verbose dependencyIsSatisfied babel-preset-es2015 true
+115 silly hasDependencyInstalled @encore/header babel-preset-es2015
+116 silly dependencyIsSatisfied [ 'babel-preset-es2015',
+116 silly dependencyIsSatisfied   '^6.24.1',
+116 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Header\\node_modules' ]
+117 verbose dependencyIsSatisfied babel-preset-es2015 true
+118 silly hasDependencyInstalled @encore/styles babel-preset-es2015
+119 silly dependencyIsSatisfied [ 'babel-preset-es2015',
+119 silly dependencyIsSatisfied   '^6.24.1',
+119 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Styles\\node_modules' ]
+120 verbose dependencyIsSatisfied babel-preset-es2015 true
+121 silly hasDependencyInstalled @encore/combapp babel-preset-react
+122 silly dependencyIsSatisfied [ 'babel-preset-react',
+122 silly dependencyIsSatisfied   '^6.24.1',
+122 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\combApp\\node_modules' ]
+123 verbose dependencyIsSatisfied babel-preset-react true
+124 silly hasDependencyInstalled @encore/dropdown babel-preset-react
+125 silly dependencyIsSatisfied [ 'babel-preset-react',
+125 silly dependencyIsSatisfied   '^6.24.1',
+125 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Dropdown\\node_modules' ]
+126 verbose dependencyIsSatisfied babel-preset-react true
+127 silly hasDependencyInstalled @encore/form babel-preset-react
+128 silly dependencyIsSatisfied [ 'babel-preset-react',
+128 silly dependencyIsSatisfied   '^6.24.1',
+128 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Form\\node_modules' ]
+129 verbose dependencyIsSatisfied babel-preset-react true
+130 silly hasDependencyInstalled @encore/header babel-preset-react
+131 silly dependencyIsSatisfied [ 'babel-preset-react',
+131 silly dependencyIsSatisfied   '^6.24.1',
+131 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Header\\node_modules' ]
+132 verbose dependencyIsSatisfied babel-preset-react true
+133 silly hasDependencyInstalled @encore/styles babel-preset-react
+134 silly dependencyIsSatisfied [ 'babel-preset-react',
+134 silly dependencyIsSatisfied   '^6.24.1',
+134 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Styles\\node_modules' ]
+135 verbose dependencyIsSatisfied babel-preset-react true
+136 silly hasDependencyInstalled @encore/combapp eslint
+137 silly dependencyIsSatisfied [ 'eslint',
+137 silly dependencyIsSatisfied   '^4.0.0',
+137 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\combApp\\node_modules' ]
+138 verbose dependencyIsSatisfied eslint true
+139 silly hasDependencyInstalled @encore/dropdown eslint
+140 silly dependencyIsSatisfied [ 'eslint',
+140 silly dependencyIsSatisfied   '^4.0.0',
+140 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Dropdown\\node_modules' ]
+141 verbose dependencyIsSatisfied eslint true
+142 silly hasDependencyInstalled @encore/form eslint
+143 silly dependencyIsSatisfied [ 'eslint',
+143 silly dependencyIsSatisfied   '^4.0.0',
+143 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Form\\node_modules' ]
+144 verbose dependencyIsSatisfied eslint true
+145 silly hasDependencyInstalled @encore/header eslint
+146 silly dependencyIsSatisfied [ 'eslint',
+146 silly dependencyIsSatisfied   '^4.0.0',
+146 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Header\\node_modules' ]
+147 verbose dependencyIsSatisfied eslint true
+148 silly hasDependencyInstalled @encore/styles eslint
+149 silly dependencyIsSatisfied [ 'eslint',
+149 silly dependencyIsSatisfied   '^4.0.0',
+149 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Styles\\node_modules' ]
+150 verbose dependencyIsSatisfied eslint true
+151 silly hasDependencyInstalled @encore/combapp eslint-plugin-import
+152 silly dependencyIsSatisfied [ 'eslint-plugin-import',
+152 silly dependencyIsSatisfied   '^2.3.0',
+152 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\combApp\\node_modules' ]
+153 verbose dependencyIsSatisfied eslint-plugin-import true
+154 silly hasDependencyInstalled @encore/dropdown eslint-plugin-import
+155 silly dependencyIsSatisfied [ 'eslint-plugin-import',
+155 silly dependencyIsSatisfied   '^2.3.0',
+155 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Dropdown\\node_modules' ]
+156 verbose dependencyIsSatisfied eslint-plugin-import true
+157 silly hasDependencyInstalled @encore/form eslint-plugin-import
+158 silly dependencyIsSatisfied [ 'eslint-plugin-import',
+158 silly dependencyIsSatisfied   '^2.3.0',
+158 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Form\\node_modules' ]
+159 verbose dependencyIsSatisfied eslint-plugin-import true
+160 silly hasDependencyInstalled @encore/header eslint-plugin-import
+161 silly dependencyIsSatisfied [ 'eslint-plugin-import',
+161 silly dependencyIsSatisfied   '^2.3.0',
+161 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Header\\node_modules' ]
+162 verbose dependencyIsSatisfied eslint-plugin-import true
+163 silly hasDependencyInstalled @encore/styles eslint-plugin-import
+164 silly dependencyIsSatisfied [ 'eslint-plugin-import',
+164 silly dependencyIsSatisfied   '^2.3.0',
+164 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Styles\\node_modules' ]
+165 verbose dependencyIsSatisfied eslint-plugin-import true
+166 silly hasDependencyInstalled @encore/combapp eslint-plugin-jsx-a11y
+167 silly dependencyIsSatisfied [ 'eslint-plugin-jsx-a11y',
+167 silly dependencyIsSatisfied   '^5.0.3',
+167 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\combApp\\node_modules' ]
+168 verbose dependencyIsSatisfied eslint-plugin-jsx-a11y true
+169 silly hasDependencyInstalled @encore/dropdown eslint-plugin-jsx-a11y
+170 silly dependencyIsSatisfied [ 'eslint-plugin-jsx-a11y',
+170 silly dependencyIsSatisfied   '^5.0.3',
+170 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Dropdown\\node_modules' ]
+171 verbose dependencyIsSatisfied eslint-plugin-jsx-a11y true
+172 silly hasDependencyInstalled @encore/form eslint-plugin-jsx-a11y
+173 silly dependencyIsSatisfied [ 'eslint-plugin-jsx-a11y',
+173 silly dependencyIsSatisfied   '^5.0.3',
+173 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Form\\node_modules' ]
+174 verbose dependencyIsSatisfied eslint-plugin-jsx-a11y true
+175 silly hasDependencyInstalled @encore/header eslint-plugin-jsx-a11y
+176 silly dependencyIsSatisfied [ 'eslint-plugin-jsx-a11y',
+176 silly dependencyIsSatisfied   '^5.0.3',
+176 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Header\\node_modules' ]
+177 verbose dependencyIsSatisfied eslint-plugin-jsx-a11y true
+178 silly hasDependencyInstalled @encore/styles eslint-plugin-jsx-a11y
+179 silly dependencyIsSatisfied [ 'eslint-plugin-jsx-a11y',
+179 silly dependencyIsSatisfied   '^5.0.3',
+179 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Styles\\node_modules' ]
+180 verbose dependencyIsSatisfied eslint-plugin-jsx-a11y true
+181 silly hasDependencyInstalled @encore/combapp eslint-plugin-react
+182 silly dependencyIsSatisfied [ 'eslint-plugin-react',
+182 silly dependencyIsSatisfied   '^7.1.0',
+182 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\combApp\\node_modules' ]
+183 verbose dependencyIsSatisfied eslint-plugin-react true
+184 silly hasDependencyInstalled @encore/dropdown eslint-plugin-react
+185 silly dependencyIsSatisfied [ 'eslint-plugin-react',
+185 silly dependencyIsSatisfied   '^7.1.0',
+185 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Dropdown\\node_modules' ]
+186 verbose dependencyIsSatisfied eslint-plugin-react true
+187 silly hasDependencyInstalled @encore/form eslint-plugin-react
+188 silly dependencyIsSatisfied [ 'eslint-plugin-react',
+188 silly dependencyIsSatisfied   '^7.1.0',
+188 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Form\\node_modules' ]
+189 verbose dependencyIsSatisfied eslint-plugin-react true
+190 silly hasDependencyInstalled @encore/header eslint-plugin-react
+191 silly dependencyIsSatisfied [ 'eslint-plugin-react',
+191 silly dependencyIsSatisfied   '^7.1.0',
+191 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Header\\node_modules' ]
+192 verbose dependencyIsSatisfied eslint-plugin-react true
+193 silly hasDependencyInstalled @encore/styles eslint-plugin-react
+194 silly dependencyIsSatisfied [ 'eslint-plugin-react',
+194 silly dependencyIsSatisfied   '^7.1.0',
+194 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Styles\\node_modules' ]
+195 verbose dependencyIsSatisfied eslint-plugin-react true
+196 silly hasDependencyInstalled @encore/combapp eslint-watch
+197 silly dependencyIsSatisfied [ 'eslint-watch',
+197 silly dependencyIsSatisfied   '^3.1.2',
+197 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\combApp\\node_modules' ]
+198 verbose dependencyIsSatisfied eslint-watch true
+199 silly hasDependencyInstalled @encore/form eslint-watch
+200 silly dependencyIsSatisfied [ 'eslint-watch',
+200 silly dependencyIsSatisfied   '^3.1.2',
+200 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Form\\node_modules' ]
+201 verbose dependencyIsSatisfied eslint-watch true
+202 silly hasDependencyInstalled @encore/header eslint-watch
+203 silly dependencyIsSatisfied [ 'eslint-watch',
+203 silly dependencyIsSatisfied   '^3.1.2',
+203 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Header\\node_modules' ]
+204 verbose dependencyIsSatisfied eslint-watch true
+205 silly hasDependencyInstalled @encore/styles eslint-watch
+206 silly dependencyIsSatisfied [ 'eslint-watch',
+206 silly dependencyIsSatisfied   '^3.1.2',
+206 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Styles\\node_modules' ]
+207 verbose dependencyIsSatisfied eslint-watch true
+208 silly hasDependencyInstalled @encore/combapp prop-types
+209 silly dependencyIsSatisfied [ 'prop-types',
+209 silly dependencyIsSatisfied   '^15.5.10',
+209 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\combApp\\node_modules' ]
+210 verbose dependencyIsSatisfied prop-types true
+211 silly hasDependencyInstalled @encore/dropdown prop-types
+212 silly dependencyIsSatisfied [ 'prop-types',
+212 silly dependencyIsSatisfied   '^15.5.10',
+212 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Dropdown\\node_modules' ]
+213 verbose dependencyIsSatisfied prop-types true
+214 silly hasDependencyInstalled @encore/form prop-types
+215 silly dependencyIsSatisfied [ 'prop-types',
+215 silly dependencyIsSatisfied   '^15.5.10',
+215 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Form\\node_modules' ]
+216 verbose dependencyIsSatisfied prop-types true
+217 silly hasDependencyInstalled @encore/header prop-types
+218 silly dependencyIsSatisfied [ 'prop-types',
+218 silly dependencyIsSatisfied   '^15.5.10',
+218 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Header\\node_modules' ]
+219 verbose dependencyIsSatisfied prop-types true
+220 silly hasDependencyInstalled @encore/styles react-tabs
+221 silly dependencyIsSatisfied [ 'react-tabs',
+221 silly dependencyIsSatisfied   '^1.1.0',
+221 silly dependencyIsSatisfied   'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Styles\\node_modules' ]
+222 verbose dependencyIsSatisfied react-tabs true
+223 silly root dependencies []
+224 silly leaf dependencies {
+224 silly leaf dependencies   "@encore/combapp": [
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "react@^15.6.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "react-dom@^15.6.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "react-router-dom@^4.3.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-cli@^6.24.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-core@^6.25.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-eslint@^7.2.3",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-preset-es2015@^6.24.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-preset-react@^6.24.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint@^4.0.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-plugin-import@^2.3.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-plugin-jsx-a11y@^5.0.3",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-plugin-react@^7.1.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-watch@^3.1.2",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "prop-types@^15.5.10",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     }
+224 silly leaf dependencies   ],
+224 silly leaf dependencies   "@encore/dropdown": [
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "react@^15.6.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "react-dom@^15.6.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "styled-components@^2.1.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-cli@^6.24.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-core@^6.25.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-eslint@^7.2.3",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-preset-es2015@^6.24.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-preset-react@^6.24.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint@^4.0.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-plugin-import@^2.3.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-plugin-jsx-a11y@^5.0.3",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-plugin-react@^7.1.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "prop-types@^15.5.10",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     }
+224 silly leaf dependencies   ],
+224 silly leaf dependencies   "@encore/form": [
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "react@^15.6.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "react-dom@^15.6.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "styled-components@^2.1.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-cli@^6.24.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-core@^6.25.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-eslint@^7.2.3",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-preset-es2015@^6.24.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-preset-react@^6.24.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint@^4.0.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-plugin-import@^2.3.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-plugin-jsx-a11y@^5.0.3",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-plugin-react@^7.1.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-watch@^3.1.2",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "prop-types@^15.5.10",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     }
+224 silly leaf dependencies   ],
+224 silly leaf dependencies   "@encore/header": [
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "react@^15.6.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "react-dom@^15.6.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "styled-components@^2.1.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-cli@^6.24.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-core@^6.25.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-eslint@^7.2.3",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-preset-es2015@^6.24.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-preset-react@^6.24.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint@^4.0.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-plugin-import@^2.3.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-plugin-jsx-a11y@^5.0.3",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-plugin-react@^7.1.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-watch@^3.1.2",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "prop-types@^15.5.10",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     }
+224 silly leaf dependencies   ],
+224 silly leaf dependencies   "@encore/styles": [
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "styled-components@^2.1.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-cli@^6.24.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-core@^6.25.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-eslint@^7.2.3",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-preset-es2015@^6.24.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "babel-preset-react@^6.24.1",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint@^4.0.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-plugin-import@^2.3.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-plugin-jsx-a11y@^5.0.3",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-plugin-react@^7.1.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "eslint-watch@^3.1.2",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     },
+224 silly leaf dependencies     {
+224 silly leaf dependencies       "dependency": "react-tabs@^1.1.0",
+224 silly leaf dependencies       "isSatisfied": true
+224 silly leaf dependencies     }
+224 silly leaf dependencies   ]
+224 silly leaf dependencies }
+225 info Symlinking packages and binaries
+226 silly packageActions finished @encore/combapp
+227 silly packageActions finished @encore/dropdown
+228 silly packageActions finished @encore/form
+229 silly packageActions finished @encore/header
+230 silly packageActions finished @encore/styles
+231 info lifecycle postinstall
+232 silly runScript postinstall @encore/combapp
+233 silly @encore/combapp
+234 silly runScript postinstall @encore/dropdown
+235 silly @encore/dropdown
+236 silly runScript postinstall @encore/form
+237 silly @encore/form
+238 silly runScript postinstall @encore/header
+239 silly @encore/header
+240 silly runScript postinstall @encore/styles
+241 silly @encore/styles
+242 info lifecycle prepublish
+243 silly runScript prepublish @encore/combapp
+244 silly runScriptInDir prepublish [] combApp
+245 silly getExecOpts { cwd: 'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\combApp' }
+246 silly runScript prepublish @encore/dropdown
+247 silly runScriptInDir prepublish [] Dropdown
+248 silly getExecOpts { cwd: 'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Dropdown' }
+249 silly runScript prepublish @encore/form
+250 silly runScriptInDir prepublish [] Form
+251 silly getExecOpts { cwd: 'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Form' }
+252 silly runScript prepublish @encore/header
+253 silly runScriptInDir prepublish [] Header
+254 silly getExecOpts { cwd: 'C:\\demo\\poc\\poc-with-lerna\\src\\packages\\Header' }
+255 silly @encore/dropdown
+256 error execute Error occured with '@encore/dropdown' while running 'npm run prepublish'
+257 error npm run prepublish [@encore/dropdown] Output from stdout:
+258 error npm run prepublish [@encore/dropdown] Output from stderr:
+259 error execute Error occured with '@encore/dropdown' while running 'npm run prepublish'
